@@ -10,10 +10,10 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableCaching
 @EnableCircuitBreaker
-public class RApplication {
+public class HomeBankApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(RApplication.class, args);
+    SpringApplication.run(HomeBankApplication.class, args);
   }
 
   @Bean
